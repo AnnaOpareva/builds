@@ -12,7 +12,7 @@ pool:
 variables:
   scheme: 'Unity-iPhone'
   sdk: 'iphoneos'
-  configuration: 'Debug'
+  configuration: 'Release'
 
 steps:
 - task: Xcode@5
