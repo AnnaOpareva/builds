@@ -27,6 +27,7 @@ steps:
     archivePath: iOSBuild
     exportPath: $(Build.ArtifactStagingDirectory)/ios
     signingOption: 'manual'
-    provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+    provisioningProfileUuid: <ProvisioningProfileUuid>
+    provisioningProfileName: <ProvisioningProfileName>
     args: 'PROVISIONING_PROFILE_APP=<ProvisioningProfileUuid> PROVISIONING_PROFILE_SPECIFIER_APP=<ProvisioningProfileName>'
     useXcpretty: false
