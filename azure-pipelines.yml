@@ -15,10 +15,10 @@ variables:
   configuration: 'Release'
 
 steps:
-- task: InstallAppleCertificate@2
-  inputs:
-    certSecureFile: 'development.cer'
-    keychain: 'temp'
+# - task: InstallAppleCertificate@2
+#   inputs:
+#     certSecureFile: 'development.cer'
+#     keychain: 'temp'
 
 - task: InstallAppleProvisioningProfile@1
   inputs:
