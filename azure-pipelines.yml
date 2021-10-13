@@ -9,12 +9,17 @@ trigger:
 pool:
   vmImage: 'macos-latest'
 
+variables:
+  scheme: 'Unity-iPhone'
+  sdk: 'iphoneos'
+  configuration: 'Debug'
+
 steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: ''
-    sdk: 'iphoneos'
-    configuration: 'Release'
+    sdk: '$(sdk)'
+    scheme: '$(scheme)'
+    configuration: '$(configuration)'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
