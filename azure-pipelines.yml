@@ -23,3 +23,10 @@ steps:
     configuration: '$(configuration)'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
+    packageApp: true
+    archivePath: iOSBuild
+    exportPath: $(Build.ArtifactStagingDirectory)/ios
+    signingOption: 'manual'
+    signingIdentity: '<SigningIdentity>'
+    args: 'PROVISIONING_PROFILE_APP=<ProvisioningProfileUuid> PROVISIONING_PROFILE_SPECIFIER_APP=<ProvisioningProfileName>'
+    useXcpretty: false
