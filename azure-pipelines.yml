@@ -14,6 +14,17 @@ variables:
   sdk: 'iphoneos'
   configuration: 'Release'
 
+- task: InstallAppleCertificate@2
+  inputs:
+    certSecureFile: 'development.cer'
+    keychain: 'temp'
+
+- task: InstallAppleProvisioningProfile@1
+  inputs:
+    provisioningProfileLocation: 'secureFiles'
+    provProfileSecureFile: 'ProfileTest.mobileprovision'
+    removeProfile: false
+
 steps:
 - task: Xcode@5
   inputs:
