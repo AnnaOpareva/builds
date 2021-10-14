@@ -17,7 +17,8 @@ variables:
 steps:
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: 'development.cer'
+    certSecureFile: 'ios_cert.p12'
+    certPwd: 'qwerty'
     keychain: 'temp'
 
 - task: InstallAppleProvisioningProfile@1
