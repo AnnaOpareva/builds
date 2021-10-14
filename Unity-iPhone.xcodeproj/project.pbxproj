@@ -1488,7 +1488,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = 285W24646W.com.abtt.test-app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abtt.test-app;
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1531,7 +1531,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = 285W24646W.com.abtt.test-app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abtt.test-app;
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1695,7 +1695,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = 285W24646W.com.abtt.test-app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abtt.test-app;
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
@@ -1805,7 +1805,7 @@
 					"$(inherited)",
 					"$(OTHER_CFLAGS)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = 285W24646W.com.abtt.test-app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abtt.test-app;
 				PRODUCT_NAME = "$(PRODUCT_NAME_APP)";
 				PROVISIONING_PROFILE = "$(PROVISIONING_PROFILE_APP)";
 				PROVISIONING_PROFILE_APP = "";
