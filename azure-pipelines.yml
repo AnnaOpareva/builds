@@ -40,7 +40,7 @@ steps:
     exportPath: $(Build.ArtifactStagingDirectory)/ios
     signingOption: 'manual'
     signingIdentity: <Code Sign Identity>
-    provisioningProfileUuid: <ProvisioningProfileUuid>
-    provisioningProfileName: <ProvisioningProfileName>
-    args: 'PROVISIONING_PROFILE_APP=<ProvisioningProfileUuid> PROVISIONING_PROFILE_SPECIFIER_APP=<ProvisioningProfileName>'
+    provisioningProfileUuid: 57e5a5b3-0c79-4de6-9968-4eda7f6bf9ba
+    provisioningProfileName: ios_test.mobileprovision
+    # args: 'PROVISIONING_PROFILE_APP=<ProvisioningProfileUuid> PROVISIONING_PROFILE_SPECIFIER_APP=<ProvisioningProfileName>'
     useXcpretty: false
