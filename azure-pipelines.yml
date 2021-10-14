@@ -38,8 +38,7 @@ steps:
     packageApp: true
     archivePath: iOSBuild
     exportPath: $(Build.ArtifactStagingDirectory)/ios
-    # signingOption: 'manual'
-    signingOption: 'auto'
+    signingOption: 'manual'
     signingIdentity: <Code Sign Identity>
     provisioningProfileUuid: <ProvisioningProfileUuid>
     provisioningProfileName: <ProvisioningProfileName>
