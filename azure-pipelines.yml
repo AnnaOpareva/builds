@@ -39,7 +39,7 @@ steps:
     archivePath: iOSBuild
     exportPath: $(Build.ArtifactStagingDirectory)/ios
     signingOption: 'manual'
-    signingIdentity: 285W24646W
+    signingIdentity: 'iPhone Developer: Anna Opareva (S3J3384H6B)'
     provisioningProfileUuid: 57e5a5b3-0c79-4de6-9968-4eda7f6bf9ba
     provisioningProfileName: ios_test
     args: 'PROVISIONING_PROFILE_APP=57e5a5b3-0c79-4de6-9968-4eda7f6bf9ba PROVISIONING_PROFILE_SPECIFIER_APP=ios_test'
