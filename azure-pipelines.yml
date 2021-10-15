@@ -27,7 +27,7 @@ steps:
     provProfileSecureFile: 'ios_test.mobileprovision'
     removeProfile: false
 
-- task: XcodeTest@5
+- task: Xcode@5
   inputs:
     actions: 'build'
     sdk: '$(sdk)'
